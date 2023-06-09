@@ -1,0 +1,38 @@
+body {
+    color: blue;
+}
+@media only screen and (min-width: 1024px){ 
+    body {
+    font-size: 100%; 
+    }
+    input {
+        width:auto;
+    }
+}
+@media only screen and (max-width: 480px){
+    body {
+        font-size:200%; 
+        color: black;
+    } 
+    h1{
+        text-align:center; 
+    }
+    h2 {
+        font-size: 40px; 
+        margin-bottom:none; 
+    }
+    input {
+        width:auto; 
+    }
+    p {
+        margin:none; 
+    }
+    input[type="radio"]{
+        width:15%; 
+    }
+    div {
+        text-align: center;
+        padding: 15px;
+    }
+}    
+
